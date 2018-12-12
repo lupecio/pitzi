@@ -16,6 +16,14 @@ To run migrates use command:
 rake db:migrate
 ```
 
+## Server
+
+To run server use command:
+
+```bash
+rails server
+```
+
 ## Test
 
 Change name of the test database on phpunit.xml file.
