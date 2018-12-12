@@ -1,24 +1,26 @@
-# README
+# Pitzi API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+To install dependencies run command:
 
-* Ruby version
+```bash
+bundle install
+```
 
-* System dependencies
+## Database
 
-* Configuration
+To run migrates use command:
 
-* Database creation
+```bash
+rake db:migrate
+```
 
-* Database initialization
+## Test
 
-* How to run the test suite
+Change name of the test database on phpunit.xml file.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Command to run tests:
+```bash
+bundle exec rspec
+```
